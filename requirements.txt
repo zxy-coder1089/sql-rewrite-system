@@ -1,0 +1,10 @@
+fastapi==0.115.12
+uvicorn==0.34.0
+jinja2==3.1.6
+pydantic==2.11.3
+sqlparse==0.5.3
+pandas==2.2.3
+psycopg2-binary==2.9.11
+numpy>=1.26
+matplotlib>=3.8
+requests==2.32.3

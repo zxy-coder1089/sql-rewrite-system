@@ -1,0 +1,7 @@
+# Optional dependencies for finetune/*.py on AutoDL/Linux.
+torch
+transformers
+peft
+bitsandbytes
+accelerate
+modelscope

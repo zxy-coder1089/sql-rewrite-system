@@ -1,0 +1,672 @@
+{
+  "boundary_m2": {
+    "name": "规则+案例（无LLM）",
+    "semantic": "16/17",
+    "avg_improvement": 1.046,
+    "details": [
+      {
+        "id": "B1",
+        "sem": true,
+        "orig_ms": 305.02,
+        "rew_ms": 270.94,
+        "imp": 1.126
+      },
+      {
+        "id": "B2",
+        "sem": true,
+        "orig_ms": 373.17,
+        "rew_ms": 325.65,
+        "imp": 1.146
+      },
+      {
+        "id": "B3",
+        "sem": true,
+        "orig_ms": 600.32,
+        "rew_ms": 634.97,
+        "imp": 0.945
+      },
+      {
+        "id": "B4",
+        "sem": true,
+        "orig_ms": 501.46,
+        "rew_ms": 595.46,
+        "imp": 0.842
+      },
+      {
+        "id": "B5",
+        "sem": true,
+        "orig_ms": 95.24,
+        "rew_ms": 89.58,
+        "imp": 1.063
+      },
+      {
+        "id": "B6",
+        "sem": true,
+        "orig_ms": 18.53,
+        "rew_ms": 15.64,
+        "imp": 1.185
+      },
+      {
+        "id": "B7",
+        "sem": true,
+        "orig_ms": 80.38,
+        "rew_ms": 70.89,
+        "imp": 1.134
+      },
+      {
+        "id": "B8",
+        "sem": true,
+        "orig_ms": 569.92,
+        "rew_ms": 386.56,
+        "imp": 1.474
+      },
+      {
+        "id": "B9",
+        "sem": true,
+        "orig_ms": 338.98,
+        "rew_ms": 331.51,
+        "imp": 1.023
+      },
+      {
+        "id": "B12",
+        "sem": true,
+        "orig_ms": 2845.62,
+        "rew_ms": 2748.73,
+        "imp": 1.035
+      },
+      {
+        "id": "B13",
+        "sem": false,
+        "orig_ms": 129.23,
+        "rew_ms": 124.56,
+        "imp": 1.037
+      },
+      {
+        "id": "B14",
+        "sem": true,
+        "orig_ms": 174.97,
+        "rew_ms": 175.28,
+        "imp": 0.998
+      },
+      {
+        "id": "B15",
+        "sem": true,
+        "orig_ms": 161.87,
+        "rew_ms": 164.01,
+        "imp": 0.987
+      },
+      {
+        "id": "B16",
+        "sem": true,
+        "orig_ms": 152.54,
+        "rew_ms": 149.47,
+        "imp": 1.021
+      },
+      {
+        "id": "B17",
+        "sem": true,
+        "orig_ms": 10.01,
+        "rew_ms": 8.09,
+        "imp": 1.237
+      },
+      {
+        "id": "B18",
+        "sem": true,
+        "orig_ms": 182.27,
+        "rew_ms": 75.73,
+        "imp": 2.407
+      },
+      {
+        "id": "B19",
+        "sem": true,
+        "orig_ms": 611.04,
+        "rew_ms": 566.53,
+        "imp": 1.079
+      },
+      {
+        "id": "B20",
+        "sem": true,
+        "orig_ms": 86.35,
+        "rew_ms": 85.86,
+        "imp": 1.006
+      }
+    ],
+    "note": "B18 (深度分页) 因规则不支持 JOIN 场景而被排除"
+  },
+  "boundary_m1": {
+    "name": "仅LLM（无规则）",
+    "semantic": "16/17",
+    "avg_improvement": 1.025,
+    "details": [
+      {
+        "id": "B1",
+        "sem": true,
+        "orig_ms": 347.47,
+        "rew_ms": 348.63,
+        "imp": 0.997
+      },
+      {
+        "id": "B2",
+        "sem": true,
+        "orig_ms": 429.51,
+        "rew_ms": 392.72,
+        "imp": 1.094
+      },
+      {
+        "id": "B3",
+        "sem": true,
+        "orig_ms": 666.23,
+        "rew_ms": 611.2,
+        "imp": 1.09
+      },
+      {
+        "id": "B4",
+        "sem": true,
+        "orig_ms": 630.44,
+        "rew_ms": 594.42,
+        "imp": 1.061
+      },
+      {
+        "id": "B5",
+        "sem": true,
+        "orig_ms": 96.74,
+        "rew_ms": 99.86,
+        "imp": 0.969
+      },
+      {
+        "id": "B6",
+        "sem": true,
+        "orig_ms": 21.48,
+        "rew_ms": 16.12,
+        "imp": 1.333
+      },
+      {
+        "id": "B7",
+        "sem": true,
+        "orig_ms": 88.5,
+        "rew_ms": 72.66,
+        "imp": 1.218
+      },
+      {
+        "id": "B8",
+        "sem": true,
+        "orig_ms": 387.57,
+        "rew_ms": 407.76,
+        "imp": 0.95
+      },
+      {
+        "id": "B9",
+        "sem": true,
+        "orig_ms": 430.28,
+        "rew_ms": 519.49,
+        "imp": 0.828
+      },
+      {
+        "id": "B12",
+        "sem": true,
+        "orig_ms": 2744.53,
+        "rew_ms": 2751.63,
+        "imp": 0.997
+      },
+      {
+        "id": "B13",
+        "sem": false,
+        "orig_ms": 131.15,
+        "rew_ms": 126.4,
+        "imp": 1.038
+      },
+      {
+        "id": "B14",
+        "sem": true,
+        "orig_ms": 187.48,
+        "rew_ms": 178.83,
+        "imp": 1.048
+      },
+      {
+        "id": "B15",
+        "sem": true,
+        "orig_ms": 168.72,
+        "rew_ms": 167.06,
+        "imp": 1.01
+      },
+      {
+        "id": "B16",
+        "sem": true,
+        "orig_ms": 164.82,
+        "rew_ms": 189.19,
+        "imp": 0.871
+      },
+      {
+        "id": "B17",
+        "sem": true,
+        "orig_ms": 10.95,
+        "rew_ms": 8.97,
+        "imp": 1.221
+      },
+      {
+        "id": "B18",
+        "sem": true,
+        "orig_ms": 84.24,
+        "rew_ms": 81.43,
+        "imp": 1.035
+      },
+      {
+        "id": "B19",
+        "sem": true,
+        "orig_ms": 736.24,
+        "rew_ms": 569.72,
+        "imp": 1.292
+      },
+      {
+        "id": "B20",
+        "sem": true,
+        "orig_ms": 101.97,
+        "rew_ms": 106.93,
+        "imp": 0.954
+      }
+    ],
+    "note": "B18 (深度分页) 因规则不支持 JOIN 场景而被排除"
+  },
+  "boundary_m3": {
+    "name": "规则+LLM（无案例）",
+    "semantic": "16/17",
+    "avg_improvement": 0.962,
+    "details": [
+      {
+        "id": "B1",
+        "sem": true,
+        "orig_ms": 344.06,
+        "rew_ms": 331.88,
+        "imp": 1.037
+      },
+      {
+        "id": "B2",
+        "sem": true,
+        "orig_ms": 434.78,
+        "rew_ms": 439.5,
+        "imp": 0.989
+      },
+      {
+        "id": "B3",
+        "sem": true,
+        "orig_ms": 742.55,
+        "rew_ms": 738.26,
+        "imp": 1.006
+      },
+      {
+        "id": "B4",
+        "sem": true,
+        "orig_ms": 552.03,
+        "rew_ms": 577.49,
+        "imp": 0.956
+      },
+      {
+        "id": "B5",
+        "sem": true,
+        "orig_ms": 97.06,
+        "rew_ms": 100.41,
+        "imp": 0.967
+      },
+      {
+        "id": "B6",
+        "sem": true,
+        "orig_ms": 25.25,
+        "rew_ms": 18.76,
+        "imp": 1.346
+      },
+      {
+        "id": "B7",
+        "sem": true,
+        "orig_ms": 93.36,
+        "rew_ms": 76.5,
+        "imp": 1.22
+      },
+      {
+        "id": "B8",
+        "sem": true,
+        "orig_ms": 393.22,
+        "rew_ms": 429.56,
+        "imp": 0.915
+      },
+      {
+        "id": "B9",
+        "sem": true,
+        "orig_ms": 407.62,
+        "rew_ms": 464.73,
+        "imp": 0.877
+      },
+      {
+        "id": "B12",
+        "sem": true,
+        "orig_ms": 2845.13,
+        "rew_ms": 2945.66,
+        "imp": 0.966
+      },
+      {
+        "id": "B13",
+        "sem": false,
+        "orig_ms": 135.52,
+        "rew_ms": 134.24,
+        "imp": 1.01
+      },
+      {
+        "id": "B14",
+        "sem": true,
+        "orig_ms": 185.64,
+        "rew_ms": 188.79,
+        "imp": 0.983
+      },
+      {
+        "id": "B15",
+        "sem": true,
+        "orig_ms": 170.39,
+        "rew_ms": 293.78,
+        "imp": 0.58
+      },
+      {
+        "id": "B16",
+        "sem": true,
+        "orig_ms": 167.43,
+        "rew_ms": 161.8,
+        "imp": 1.035
+      },
+      {
+        "id": "B17",
+        "sem": true,
+        "orig_ms": 11.82,
+        "rew_ms": 9.07,
+        "imp": 1.303
+      },
+      {
+        "id": "B18",
+        "sem": true,
+        "orig_ms": 83.02,
+        "rew_ms": 79.4,
+        "imp": 1.046
+      },
+      {
+        "id": "B19",
+        "sem": true,
+        "orig_ms": 650.62,
+        "rew_ms": 637.02,
+        "imp": 1.021
+      },
+      {
+        "id": "B20",
+        "sem": true,
+        "orig_ms": 98.2,
+        "rew_ms": 98.34,
+        "imp": 0.999
+      }
+    ],
+    "note": "B18 (深度分页) 因规则不支持 JOIN 场景而被排除"
+  },
+  "boundary_m4": {
+    "name": "完整系统",
+    "semantic": "16/17",
+    "avg_improvement": 1.004,
+    "details": [
+      {
+        "id": "B1",
+        "sem": true,
+        "orig_ms": 341.89,
+        "rew_ms": 343.75,
+        "imp": 0.995
+      },
+      {
+        "id": "B2",
+        "sem": true,
+        "orig_ms": 451.81,
+        "rew_ms": 458.49,
+        "imp": 0.985
+      },
+      {
+        "id": "B3",
+        "sem": true,
+        "orig_ms": 753.27,
+        "rew_ms": 763.1,
+        "imp": 0.987
+      },
+      {
+        "id": "B4",
+        "sem": true,
+        "orig_ms": 588.01,
+        "rew_ms": 577.23,
+        "imp": 1.019
+      },
+      {
+        "id": "B5",
+        "sem": true,
+        "orig_ms": 124.63,
+        "rew_ms": 107.81,
+        "imp": 1.156
+      },
+      {
+        "id": "B6",
+        "sem": true,
+        "orig_ms": 25.64,
+        "rew_ms": 18.15,
+        "imp": 1.413
+      },
+      {
+        "id": "B7",
+        "sem": true,
+        "orig_ms": 104.86,
+        "rew_ms": 88.57,
+        "imp": 1.184
+      },
+      {
+        "id": "B8",
+        "sem": true,
+        "orig_ms": 456.33,
+        "rew_ms": 449.49,
+        "imp": 1.015
+      },
+      {
+        "id": "B9",
+        "sem": true,
+        "orig_ms": 414.05,
+        "rew_ms": 405.99,
+        "imp": 1.02
+      },
+      {
+        "id": "B12",
+        "sem": true,
+        "orig_ms": 2631.41,
+        "rew_ms": 2593.78,
+        "imp": 1.015
+      },
+      {
+        "id": "B13",
+        "sem": false,
+        "orig_ms": 164.7,
+        "rew_ms": 163.65,
+        "imp": 1.006
+      },
+      {
+        "id": "B14",
+        "sem": true,
+        "orig_ms": 259.56,
+        "rew_ms": 233.03,
+        "imp": 1.114
+      },
+      {
+        "id": "B15",
+        "sem": true,
+        "orig_ms": 214.67,
+        "rew_ms": 299.04,
+        "imp": 0.718
+      },
+      {
+        "id": "B16",
+        "sem": true,
+        "orig_ms": 200.0,
+        "rew_ms": 194.06,
+        "imp": 1.031
+      },
+      {
+        "id": "B17",
+        "sem": true,
+        "orig_ms": 13.76,
+        "rew_ms": 10.44,
+        "imp": 1.318
+      },
+      {
+        "id": "B18",
+        "sem": true,
+        "orig_ms": 104.97,
+        "rew_ms": 103.62,
+        "imp": 1.013
+      },
+      {
+        "id": "B19",
+        "sem": true,
+        "orig_ms": 693.03,
+        "rew_ms": 698.64,
+        "imp": 0.992
+      },
+      {
+        "id": "B20",
+        "sem": true,
+        "orig_ms": 107.9,
+        "rew_ms": 107.4,
+        "imp": 1.005
+      }
+    ],
+    "note": "B18 (深度分页) 因规则不支持 JOIN 场景而被排除"
+  },
+  "boundary_m0": {
+    "name": "仅规则引擎",
+    "semantic": "16/17",
+    "avg_improvement": 1.016,
+    "details": [
+      {
+        "id": "B1",
+        "sem": true,
+        "orig_ms": 384.7,
+        "rew_ms": 310.9,
+        "imp": 1.237
+      },
+      {
+        "id": "B2",
+        "sem": true,
+        "orig_ms": 423.9,
+        "rew_ms": 406.4,
+        "imp": 1.043
+      },
+      {
+        "id": "B3",
+        "sem": true,
+        "orig_ms": 704.9,
+        "rew_ms": 699.2,
+        "imp": 1.008
+      },
+      {
+        "id": "B4",
+        "sem": true,
+        "orig_ms": 535.3,
+        "rew_ms": 507.1,
+        "imp": 1.056
+      },
+      {
+        "id": "B5",
+        "sem": true,
+        "orig_ms": 98.7,
+        "rew_ms": 93.0,
+        "imp": 1.061
+      },
+      {
+        "id": "B6",
+        "sem": true,
+        "orig_ms": 21.3,
+        "rew_ms": 15.4,
+        "imp": 1.383
+      },
+      {
+        "id": "B7",
+        "sem": true,
+        "orig_ms": 84.7,
+        "rew_ms": 72.8,
+        "imp": 1.163
+      },
+      {
+        "id": "B8",
+        "sem": true,
+        "orig_ms": 385.5,
+        "rew_ms": 406.3,
+        "imp": 0.949
+      },
+      {
+        "id": "B9",
+        "sem": true,
+        "orig_ms": 346.6,
+        "rew_ms": 355.2,
+        "imp": 0.976
+      },
+      {
+        "id": "B12",
+        "sem": true,
+        "orig_ms": 2221.0,
+        "rew_ms": 2167.0,
+        "imp": 1.025
+      },
+      {
+        "id": "B13",
+        "sem": false,
+        "orig_ms": 146.1,
+        "rew_ms": 133.6,
+        "imp": 1.094
+      },
+      {
+        "id": "B14",
+        "sem": true,
+        "orig_ms": 207.6,
+        "rew_ms": 209.0,
+        "imp": 0.993
+      },
+      {
+        "id": "B15",
+        "sem": true,
+        "orig_ms": 186.4,
+        "rew_ms": 269.7,
+        "imp": 0.691
+      },
+      {
+        "id": "B16",
+        "sem": true,
+        "orig_ms": 158.4,
+        "rew_ms": 155.2,
+        "imp": 1.021
+      },
+      {
+        "id": "B17",
+        "sem": true,
+        "orig_ms": 11.1,
+        "rew_ms": 8.8,
+        "imp": 1.261
+      },
+      {
+        "id": "B18",
+        "sem": true,
+        "orig_ms": 87.1,
+        "rew_ms": 88.3,
+        "imp": 0.986
+      },
+      {
+        "id": "B19",
+        "sem": true,
+        "orig_ms": 588.3,
+        "rew_ms": 592.6,
+        "imp": 0.993
+      },
+      {
+        "id": "B20",
+        "sem": true,
+        "orig_ms": 94.4,
+        "rew_ms": 93.6,
+        "imp": 1.009
+      }
+    ],
+    "note": "B18 (深度分页) 因规则不支持 JOIN 场景而被排除"
+  }
+}
